@@ -1,0 +1,153 @@
+/* width */
+*::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+/* Track */
+*::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 2.5px grey;
+	border-radius: 4px;
+}
+
+/* Handle */
+*::-webkit-scrollbar-thumb {
+	background: #404892;
+	border-radius: 4px;
+}
+
+.navbar-dark {
+	background-color: #283396;
+}
+
+.footer {
+	width: 100%;
+	background-color: #283396;
+	color: white;
+	margin: 0px auto;
+	padding: 20px 0px 20px 0px;
+}
+
+.mycontainer {
+	padding-top: 56px;
+	display: flex;	
+	flex-direction: column;
+	min-height: 100vh;
+	justify-content: space-between
+}
+
+.pagecontent {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.mytitle {
+	margin: 10px 0px;
+	color: #283396;
+}
+
+.wwrap {
+	max-width: 100px;
+	word-wrap: break-word;
+}
+
+.container.mybar {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.container.mybar a {
+	color: white;
+	font-weight: bold;
+	padding: 5px 10px;
+}
+
+.container.loading {
+	display: flex;
+	font-weight: bold;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+
+.container form {
+	padding: 8px 0px;
+}
+
+.container.error {
+	font-weight: bold;
+	display: flex;
+	font-weight: bold;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+}
+
+.cities {	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: grid;
+	gap: 10px;
+	grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+}
+
+.cities .card {
+	padding: 5px;
+	max-width: 200px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+}
+
+.mycard {	
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  	transition: 0.3s;
+}
+
+.mybar {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;	
+}
+
+.navbar .mybar a {
+	padding: 0 10px;
+}
+
+.navbar .mybar a, .navbar .end {
+	font-weight: bold;
+	color: white;	
+}
+
+.pagination {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.pagination .btn {
+	margin: 5px;
+	padding: 5px 10px;
+	font-weight: bold;
+	color: white;
+	background-color: #283396;
+	border-radius: 10%;
+	cursor: pointer;
+}
+
+.pagination .page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 30px;
+	height: 36px;
+	border: 1px solid #283396;
+	border-radius: 10%;
+	color: #283396;
+	font-weight: bold;
+}
